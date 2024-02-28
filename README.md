@@ -6,7 +6,7 @@ With upload/search/login available
 
 # Some Screenshots of the website
 
-[The Demo Site]([Scouting SYS for 36920](http://59.110.12.170/scouting/list.php))
+[The Demo Site](http://59.110.12.170/scouting/list.php)
 
 - ![alldata](https://raw.githubusercontent.com/BNDS-FTC/Scourting/main/screenshot/all_data.png)
   
@@ -26,3 +26,5 @@ With upload/search/login available
   
 
 # Deploy
+- PHP + MySQL + Apache
+The lastest versions of these should all be ok
