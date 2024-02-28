@@ -1,0 +1,42 @@
+.team-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 在每个项目之间均匀分布 */
+    padding: 10px;
+}
+
+/* 修改 Team ID、Team Name、Auto Score、Manual Score、Total Score 的对齐方式 */
+.team-header span {
+    margin-right: 10px;
+    display: flex;
+    align-items: center; /* 设置垂直居中对齐 */
+}
+
+
+.team-item:nth-child(odd) .team-header {
+    background-color: #d96666; /* 奇数行红色 */
+}
+
+.team-item:nth-child(even) .team-header {
+    background-color: #6666d9; /* 偶数行蓝色 */
+}
+
+.arrow {
+    margin-left: auto;
+}
+
+.team-details {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.team-header span {
+    color: #fff; /* 白色 */
+    margin-right: 10px;
+}
+
+.team-id {
+    font-size: 32px; /* 字体大小 */
+    font-weight: bold;
+}

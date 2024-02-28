@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #eee;
+}
+
+#tabs li {
+    margin: 0;
+}
+
+#tabs a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    margin-right: 1px;
+}
+
+#tabs a:hover {
+    background-color: #ccc;
+}
+
+.tab {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+
+.active {
+    display: block;
+}
+
+.container {
+    height: 70px;
+    width: 800px;
+    margin: 10px auto 0 auto;
+    position: relative;
+}
+
+.parent {
+    position: relative;
+}
+
+.search {
+    width: calc(100% - 60px); /* 计算剩余宽度，给搜索框宽度设置动态值 */
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    background: #4CAF50; /* 绿色背景色 */
+    border-radius: 50%; /* 圆角，使其变成椭圆形 */
+    outline: none;
+    border: none;
+    cursor: pointer;
+    right: 5px; /* 调整按钮的位置 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 垂直居中 */
+}
+
+.welcome-message {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #4caf50; /* 设置背景颜色 */
+    color: #fff; /* 设置文本颜色 */
+    border-radius: 5px;
+}
